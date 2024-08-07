@@ -1,0 +1,10 @@
+
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="!loading">
+  <input (input)="filterGames" placeholder="Search games..." />
+  <button (click)="filterGames('')">Clear</button>
+  <app-game-list  [games]="filteredGames"></app-game-list>
+</div>
+
+
+<!-- <input (input)="filterGames($event.target.value)" placeholder="Search games..." /> -->

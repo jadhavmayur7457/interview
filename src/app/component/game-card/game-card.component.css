@@ -1,0 +1,17 @@
+.game-card {
+    background-color: #0e1a2b;
+    color: #c1d1e8;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .game-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+  }
+  
+  .game-card p {
+    font-family: 'Mulish', sans-serif;
+  }
+  

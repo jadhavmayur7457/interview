@@ -1,0 +1,21 @@
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  input {
+    background-color: #182c47;
+    color: #c1d1e8;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #5692e8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
